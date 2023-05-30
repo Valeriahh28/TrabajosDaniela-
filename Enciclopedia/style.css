@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.titulo {
+    width: 40%;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 4%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.main{
+    font-family: 'Inconsolata', monospace;
+}
+
+.header {
+    padding: 1%;
+    text-align: start;
+    font-family: 'Inconsolata', monospace;
+
+}
+.fotos{
+    text-align: center;
+}
+.imagen {
+    height: 15  0px;
+    width: 200px;
+    border: 15px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.mi {
+    text-align: center;
+}
+
+.titulo1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.articulo1 {
+    border: solid 2px black;
+    border-radius: 4px;
+}
+
+.articulo2 {
+    border: solid 2px black;
+    border-radius: 4px;
+    margin-top: 2%;
+}
+.articulo3 {
+    border: solid 2px black;
+    border-radius: 4px;
+    margin-top: 2%;
+}
+.clases{
+    list-style: none;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.comentarios{
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid black;
+    margin: 10px;
+}
+.usuario{color: blueviolet;}
+
+.fecha{
+    color: rgb(139, 130, 130);
+}
+.reacciones{
+    margin:20px ;
+    background-color: rgb(225, 209, 209);
+}

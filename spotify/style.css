@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.playlist {
+    background: rgb(71,10,97);
+    background: linear-gradient(0deg, rgba(71,10,97,1) 20%,
+     rgba(80,167,162,1) 91%);
+}
+
+.nombre-playlist {
+    display: flex;
+    align-items: flex-end;
+}
+
+.imagen-lista img {
+    width: 200px;
+}
+
+.info-playlist {
+    margin-left: 40px;
+}
+.lista-de-titulos{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.lista-de-titulos li{
+    font-size: 25px;
+    width: 150px;
+}
+.soundtracks{
+    background: rgb(79,210,255);
+    background: linear-gradient(0deg, rgba(79,210,255,1) 0%, 
+    rgba(126,80,167,1) 67%);
+    /*display: flex;*/
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.item{
+border: 300px;
+}
+.imagenes img{
+    
+    width:90px;
+    border: 300px;
+}
+.titulos{
+
+border: 300px;
+}
+.album{
+
+    border: 300px;
+
+}
+.agregadoEl{
+    border: 300px;
+
+}
+.duracion{
+
+border: 300px;
+}
+.casilla{
+    width: 150px;
+}

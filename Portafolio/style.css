@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.8520658263305322) 46%, rgba(100, 89, 231, 0.9585084033613446) 55%,
+            rgba(12, 117, 90, 0.7008053221288515) 100%);
+}
+
+.principal ul {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: rgb(3, 171, 113);
+
+}
+
+.principal ul li {
+    width: 110px;
+    padding-left: 3px;
+    text-decoration: none;
+    float: left;
+}
+.principal{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 10000px;
+}
+
+.principal ul li a {
+    text-decoration: none;
+}
+.principal ul li a:hover {
+background: #cbe8d8 ;
+}
+
+.contactenos {
+    background-color: rgb(198, 136, 255);
+    border-radius: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.titulo-principal {
+    padding-left: 100PX;
+    padding: 30px;
+    margin: 70px;
+    font-family: 'Lobster', cursive;
+}
+
+.hola {
+    font-size: 20px;
+    margin: 10PX;
+    color: blue;
+}
+
+.nombre {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+button {
+    padding-left: 100px;
+    padding: 2px 2px;
+    color: blue;
+    border-radius: 20px;
+    border-bottom: 2px;
+}
+
+.imagen {
+    width: 200px;
+    margin: 60px;
+    border-radius: 20px;
+    filter: drop-shadow(18px 21px 8px black);
+    height: 200px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.s-conocimientos {
+    display: inline;
+}
+
+.conocimientos {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.cono {
+    padding: 60px;
+    color: blue;
+}
+
+.imagenes-conocimientos img {
+    align-items: center;
+}
+
+.imagen2 {
+    width: 100px;
+    height: 150px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.frase {
+    font-size: 200px;
+    color: slateblue;
+}
+
+.comillas {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: -25px;
+    padding: 6px;
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+}
+
+.mimimi {
+    background-image: url(./girasol.jpg);
+}
+
+.proyecto {
+    margin: 10px;
+    padding: 60px;
+    color: blue;
+    text-align: center;
+}
+
+.proyect {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    border-radius: 10px;
+}
+.in{
+    color: blue;
+}
+.escribir{
+    padding: 20px;
+    color: blue;
+}
+.contacto{
+    color: blue;
+}
+.comentario{
+    display: flex;
+    
+}
+footer{
+    background-color: bisque;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Instrument Serif', serif;
+    
+}
+.cuenta{
+    font-size: 30px;
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+    color: #019267;
+}
+.mis-movimientos{
+    text-align: left;
+    color: #019267;
+}
+.bajo{
+    color: #ca0300;
+}
+.subio{
+    color: #06cf16;
+}
+.movimientos {
+    border: 1px solid black;
+    margin: 40px;
+ 
+}

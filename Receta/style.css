@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.receta {
+    border: 1px solid rgb(114, 250, 155);
+    background-color: #7AA874;
+}
+.receta img{
+width: 500px;
+height: 200px;
+padding: 20px;
+margin-left: 100px;
+}
+.rece {
+    padding: 20px;
+    text-align: center;
+    font-size: 100px;
+    color: #175a4c;
+}
+
+.primero ul {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #175a4c;
+}
+
+.primero ul li {
+    width: 110px;
+    padding-left: 3px;
+    text-decoration: none;
+    float: left;
+}
+
+.primero ul li a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.primero ul li a:hover {
+    background: #F6F1F1;
+}
+.primero {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 10000px;
+}
+
+.principal{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+}
+.imagen{
+    width: 300px;
+    padding: 10px;
+}
+section{
+    background-color: #7AA874;
+    display: flex;
+}
+.contenedor-principal{
+    border: 1px solid rgb(114, 250, 155);
+}
+.contenedor-secundario{
+    border: 1px solid rgb(114, 250, 155);
+}
+
+main{
+    margin: 5px;
+    border: 1px solid rgb(114, 250, 155);
+}
+.corto{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.nombre1{
+    margin: 10px;
+}
+.titulo{
+    font-size: 50px;
+    color: #175a4c;
+}
+.utencilios{
+    text-align: center;
+    letter-spacing: 9px;
+    padding: 30px;
+}
+.ingredientes{
+    margin: 10px;
+}
+.titulo1{
+    text-align: center;
+    color: #175a4c;
+    margin: 2%;
+    font-family: 'Instrument Serif', serif;
+}
+.lista{
+    text-align: center;
+    list-style: none;
+    font-family: 'Instrument Serif', serif;
+}
+.liste{
+    text-align: center;
+    list-style: decimal;
+    font-family: 'Instrument Serif', serif;
+}
+.footer{
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    margin: 10px;
+}
