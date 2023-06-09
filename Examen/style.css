@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    background: black;
+    padding: 10px;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+button {
+    border-radius: 10px;
+    border-color: transparent;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.segundo {
+    background: green;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    color: green;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(193, 193, 193);
+    padding: 50px;
+}
+
+input {
+    padding: 10px;
+    width: 500px;
+}
+
+main {
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+    color: green;
+}
+
+main section {
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+main section div {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+main section div a {
+    text-decoration: none;
+}
+
+.contenedor{
+    display:flex ;
+}
+
+section div img{
+    align-items: stretch;
+}
+
+img {
+    float: right;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
